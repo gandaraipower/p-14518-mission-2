@@ -18,7 +18,7 @@ public class Question {
     private Integer id;
 
     @Column(length = 200)
-    private String question;
+    private String subject;
 
     @Column(columnDefinition = "TEXT")
     private String content;
