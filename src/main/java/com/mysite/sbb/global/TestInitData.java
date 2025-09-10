@@ -1,5 +1,7 @@
-package com.mysite.sbb;
+package com.mysite.sbb.global;
 
+import com.mysite.sbb.question.Question;
+import com.mysite.sbb.question.QuestionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Bean;
